@@ -8,13 +8,18 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^3.4.31"
   },
   "devDependencies": {
+    "@types/node": "^22.1.0",
     "@vitejs/plugin-vue": "^5.0.5",
     "typescript": "^5.2.2",
+    "unplugin-vue-define-options": "^1.4.9",
     "vite": "^5.3.4",
+    "vite-plugin-css-injected-by-js": "^3.5.1",
+    "vite-plugin-dts": "^4.0.0-beta.2",
+    "vue": "^3.4.31",
     "vue-tsc": "^2.0.24"
   }
 }
